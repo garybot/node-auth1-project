@@ -8,7 +8,7 @@ const sessionConfig = {
 	secret: "O'Mally the Alley Cat.",
 	cookie: {
 		maxAge: 1000 * 60 * 60,
-		secure: false, // true is production
+		secure: false, // true in production
 		httpOnly: true,
 	},
 	resave: false,
